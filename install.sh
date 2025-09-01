@@ -10,10 +10,10 @@ wget -O /tmp/Uni_stalker.tar.gz "https://github.com/MARKETTV1/Uni_Stalker/raw/re
 tar -xzvf /tmp/Uni_stalker.tar.gz
 
 # نقل المحتويات الى extension
-mv /tmp/files/* /usr/lib/enigma2/python/Plugins/Extensions/
+mv /tmp/files/* /Extensions/
 
 # تعديل الصلاحيات (اختياري)
-chmod -R 644 /usr/lib/enigma2/python/Plugins/Extensions/Uni_stalker/*
+chmod -R 644 /Uni_stalker/*
 
 # تنظيف الملفات المؤقتة (اختياري)
 rm -rf /tmp/Uni_stalker.tar.gz /tmp/files
